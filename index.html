@@ -78,6 +78,16 @@
     text-align: center;
     font-size: 110%;
   }
+  .maps{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .espaco{
+    margin: 200px;
+  }
   @media (max-width: 768px) {
     .controle-banner{
     position: relative;
@@ -123,7 +133,27 @@
         <p>Aqui na Nâna alimentos, você encontra diversos tipos de alimentação:</p>
         <img src="assets/tipos de alimentação nana.png" width="70%" alt="">
       </div>
-      
+
+      <div class="maps">
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3" >
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"height":404,"width":1500,"zoom":17,"queryString":"Rua Ione Mitico Hayashi, 154 - Residencial Bosque dos Ipes, São José dos Campos - SP, Brasil","place_id":"ChIJE5nBfE21zZQRHjbSG78-_8o","satellite":false,"centerCoord":[-23.253942106823985,-45.89443945000001],"cid":"0xcaff3ebf1bd2361e","lang":"pt","cityUrl":"/brazil/sao-jose-dos-campos-16845","cityAnchorText":"","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"398077"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=398077';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/pt/map-embed">1 Map</a>
+          </div>
+        </div>
+
+        <div class="espaco">
+
+        </div>
       
     </div>
   </body>
