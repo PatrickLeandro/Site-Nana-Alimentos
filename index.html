@@ -11,7 +11,7 @@
       padding: 0;
       margin: 0;
     }
-    .container {
+    .container{
       
     }
     .menu-bar{
@@ -71,12 +71,12 @@
   .conteudo h1{
     color: #3d5734;
     margin-bottom: 20px;
-    font-size: 135%;
+    font-size: 1.6rem;
   }
   .conteudo p{
     color: rgb(82, 70, 70);
     text-align: center;
-    font-size: 110%;
+    font-size: 1.3rem;
   }
   .maps{
     display: flex;
@@ -84,10 +84,25 @@
     align-self: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 40px;
   }
-  .espaco{
-    margin: 200px;
+  .cardapio{
+    text-align: center;
   }
+  .cardapio h2{
+    font-size: 1.5rem;
+    color: #3d5734;
+    margin-bottom: 20px;
+  }
+  .cardapio p{
+    font-size: 1.2rem;
+    color: rgb(82, 70, 70);
+    margin-bottom: 40px;
+  }
+  #tiposDeAlimentecao{
+    width: 75%;
+  }
+
   @media (max-width: 768px) {
     .controle-banner{
     position: relative;
@@ -106,6 +121,9 @@
     left: 50%;
     bottom: 45%;
     width: 40%;
+  }
+  #tiposDeAlimentecao{
+    width: 100%;
   }
   }
   
@@ -131,7 +149,13 @@
       <div class="conteudo">
         <h1>Seja bem vindo(a) ao nosso site!</h1>
         <p>Aqui na Nâna alimentos, você encontra diversos tipos de alimentação:</p>
-        <img src="assets/tipos de alimentação nana.png" width="70%" alt="">
+        <img src="assets/tipos de alimentação nana.png"  alt="" id="tiposDeAlimentecao">
+      </div>
+
+
+      <div class="cardapio">
+        <h2>Já conhece nosso cardápio?</h2>
+        <p><a href="">Clique aqui</a> e fique por dentro das nossas novidades.</p>
       </div>
 
       <div class="maps">
@@ -151,7 +175,7 @@
           </div>
         </div>
 
-        <div class="espaco">
+        <div class="espaço">
 
         </div>
       
