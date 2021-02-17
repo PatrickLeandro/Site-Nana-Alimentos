@@ -149,18 +149,17 @@ p{
     position: fixed;
     display: flex;
 }
-ul{
-    width: 80%;
-    list-style: none;
+.fotos{
     display: flex;
     justify-content: center;
-    margin: 0px auto;
-
+    align-items: center;
+    align-self: center;
+    width: 100%;
 }
 
 .min{
     width: 100px;
-    padding: 10px;
+    margin: 10px 
 }
 .box_img{
     width: 100%;
