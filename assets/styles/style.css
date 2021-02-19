@@ -97,9 +97,11 @@ p{
   width: 100%;
   display: flex;
   margin-bottom: 20px;
+  justify-content: center;
 }
 .row30{
-  width: 33%;
+  width: 32%;
+  padding: 1%;
   text-align: center;
   font-size: 1.3rem;
 }
@@ -226,8 +228,8 @@ p{
 }
 #menu{
     float: right;
-    margin-top: 38px;
-    margin-right: 2%;
+    margin-top: 26px;
+    margin-right: 1%;
     color: white;
     font-weight: 600;
     font-size: 10px;
