@@ -99,6 +99,7 @@ p{
   margin-bottom: 20px;
   justify-content: center;
 }
+
 .row30{
   width: 31%;
   padding: 0.8%;
@@ -129,6 +130,41 @@ p{
   font-size: 1.1rem;
   color: white;
   background-color: #3d5734;
+}
+
+
+
+form{
+  text-align: justify;
+  font-size: 1.0rem;
+  color: rgb(82, 70, 70);
+  width: 100%;
+}
+input{
+  width: 97%;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+#message{
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.required{
+  width: 100%;
+  font-weight: 600;
+
+}
+#submit_button{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #3d5734;
+  color: white;
+  border: none;
+  font-weight: 700;
+  padding: 10px;
 }
 
 /* ############   CONFIGURAÇÕES DA GALERIA   ##################*/
