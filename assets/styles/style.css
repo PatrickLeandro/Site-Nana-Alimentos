@@ -129,6 +129,20 @@ p{
   background-color: #3d5734;
 }
 
+/* ######### CONFIGURAÇÕES DOS CONTEUDOS DO INSTA ############# */
+
+
+.conteudo-insta{
+  display: flex;
+  width: 100%;
+}
+.row25{
+  width: 25%;
+  border: 1px solid;
+  height: 300px;
+}
+
+
 
 
 /* ############   CONFIGURAÇÕES DA GALERIA   ##################*/
