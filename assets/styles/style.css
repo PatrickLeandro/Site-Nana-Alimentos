@@ -185,10 +185,13 @@ input{
     position: fixed;
     display: flex;
 }
-
+.lbox:target img{
+  width: 800px;
+}
 
 .min{
     width: 200px;
+    height: 150px;
     border-radius: 8px;
 
 }
@@ -322,5 +325,8 @@ h3{
 }
 .box_img img{
     width: 90%;
+}
+.lbox:target img{
+  width: 350px;
 }
 }
