@@ -5,26 +5,51 @@
 }
 .container{
 }
-.menu-bar{
-margin: 0;
-height: 90px;
-width: 100%;
-background-color: #3d5734;
+/* ###############     MENU          ########## */
+nav {
+	background: #13583b;
+	height: 80px;
+	width: 100%;
+  z-index: 9;
 }
-.menu-bar a{
-text-decoration: none;
-color: white;    
+.logo img {
+	width: 80px;
+  z-index: 9;
+  margin-left: 20px;
 }
-#menu{
-float: right;
-margin-top: 14px;
-margin-right: 2%;
-color: white;
+nav ul {
+	float: right;
+	margin-right: 20px;
+  z-index: 9;
 }
-.logo{
-margin-left: 1%;
-margin-top: -7px;
-width: 105px;
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+  text-decoration: none;
+}
+a.active, a:hover {
+	background: #324d28;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
 }
 .banner{
   background-image: url('../banner-nana.jpg');
@@ -49,8 +74,8 @@ width: 105px;
 #logo-banner{
   position: relative;
   left: 30%;
-  bottom: 8%;
-  width: 30%;
+  top: 5%;
+  width: 20%;
 }
 #wpp{
   width: 200px;
@@ -329,5 +354,47 @@ h3{
 }
 .lbox:target img{
   width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkbtn {
+  display: block;
+}
+ul{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #3d5734;
+  top: 80px;
+  left: -100%;
+  text-align: center;
+  transition: all .5s;
+}
+nav ul li{
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+nav ul li a {
+  font-size: 20px;
+}
+a:hover, a.active {
+  background: none;
+  color: #2a8f0b;
+}
+#check:checked ~ ul {
+  left: 0;
 }
 }
