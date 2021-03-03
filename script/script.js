@@ -13,12 +13,5 @@
         }
       }
   
-      const logo = document.querySelector('.contato .button');
-      logo.addEventListener('click', () => iniciaModal('modal-promocao'));
-  
-      document.addEventListener('scroll', () => {
-        if(window.pageYOffset > 800) {
-          iniciaModal('modal-promocao')
-        }
-      })
+      
   
