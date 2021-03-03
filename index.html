@@ -9,13 +9,14 @@
 
   
   <link rel="stylesheet" href="assets/styles/style.css">
+  <script src="script/script.js"></script>
 </head>
-<body>
+<body onload="iniciaModal('modalInicio')">
     <div class="container">
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-          <img src="assets/menu-icon.png" alt="" width="30px">          
+          <img src="assets/menu-icon.png" alt="" width="30px" >          
         </label>
         <label class="logo"><img src="assets/Logo-nana.png"/></label>
         <ul>
@@ -29,7 +30,7 @@
             
       <div class="controle-banner">
         <div class="banner">
-          <img src="assets/logo-nana-sem-fundo.png " id="logo-banner" alt="">
+          <img src="assets/logo-nana-sem-fundo.png " id="logo-banner" alt="" >
 
           
         </div>
@@ -150,5 +151,21 @@
 
         <footer class="footer">2021 - Nâna Alimentos Naturais | Desenvolvido por Patrick Leandro</footer>
     </div>
+
+
+   
+  
+    <div id="modalInicio" class="modal-container">
+      <div class="modal">
+        <button class="fechar">x</button>
+        
+        <h1>Live todas as quartas</h1>
+        <p>Isso mesmo! Agora teremos lives especiais para você toda semana em nosso instagram </p>
+
+        <p>Fique atento, todas as quartas as 15horas horário de brasília</p>
+        <p>Acompanhe-nos e fique por dentro de todas as novidades<br><a href="https://www.instagram.com/nana.alimentosnaturais/?hl=pt-br" target="_blank">@nana.alimentosnaturais</a> </p>
+      </div>
+    </div>
+  
   </body>
 </html>
