@@ -343,8 +343,23 @@ input{
   font-family: "PT Mono", monospace;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+  z-index: 10;
 }
-
+.logoModal{
+  width: 90%;
+}
+.bordaLogo{
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 200px;
+  margin-top: -100px;
+}
 
 
 
