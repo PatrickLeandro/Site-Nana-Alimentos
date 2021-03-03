@@ -178,7 +178,7 @@ input{
   border: 1px solid #ccc;
 }
 #message{
-  width: 100%;
+  width: 99%;
   border: 1px solid #ccc;
   margin-bottom: 20px;
 }
@@ -188,7 +188,7 @@ input{
 
 }
 #submit_button{
-  width: 100%;
+  width: 99%;
   margin-top: 10px;
   background-color: #13583b;
   color: white;
@@ -473,9 +473,6 @@ a:hover, a.active {
 #check:checked ~ ul {
   left: 0;
 }
-
-
-
 .modal {
   width: 60%;
 }
